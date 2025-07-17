@@ -12,19 +12,12 @@ Project consists of a simple PowerShell script that walks the user through "zero
 <br />
 
 
-<h2> MVP1 Feature List </h2>
+<h2> MVP1 Feature List + Prioritization </h2>
 <p align="center">
 <br/>
-<img src="https://i.imgur.com/9SiNnRv.png" height="50%" width="50%"/>
+<img src="https://i.imgur.com/SRxFc38.png" height="60%" width="60%"/>
 <br />
 
-
-<h2> Feature Prioritization </h2>
-<p align="center">
-<br/>
-<img src="https://i.imgur.com/vMnHHx7.png" height="50%" width="50%"/>
-<br />
-  
 
 <h2> Wireframing the Product Experience / Mock-ups </h2>
 <p align="center">
