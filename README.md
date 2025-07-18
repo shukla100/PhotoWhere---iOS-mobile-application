@@ -76,10 +76,10 @@ iOS Deployment: <br>
 <br />
 
 
-<h2> Feedback - User Interviews + Key Insights </h2>
+<h2> User/Customer Feedback </h2>
 <p align="center">
 <br/>
-<img src="https:" height="50%" width="50%"/>
+<img src="https://i.imgur.com/voolhU9.png" height="80%" width="80%"/>
 <br />
 
 
