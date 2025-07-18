@@ -15,7 +15,7 @@ PhotoWhere is a native iOS application that dynamically detects user location (v
 <br />
 
 
-<h2> MVP1 Feature List + Prioritization </h2>
+<h2> MVP 1 Feature List + Prioritization </h2>
 <p align="center">
 <br/>
 <img src="https://i.imgur.com/SRxFc38.png" height="60%" width="60%"/>
@@ -29,18 +29,22 @@ Home View / Results View
 <img src="https://i.imgur.com/r37TwyH.png" height="30%" width="30%"/> <img src="https://i.imgur.com/Z5thT2G.png" height="30%" width="30%"/>
 <br />
 
-<h2> Build - MVP1</h2>
 
-<p>
-Environments Used: <br>
+<h2> Build - MVP1</h2>
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/4W72EP4.jpeg" height="20%" width="18.7%"/> <img src="https://i.imgur.com/8Yxq7CA.jpeg" height="20%" width="18.7%"/> <img src="https://i.imgur.com/uhAaTnB.jpeg" height="20%" width="18.7%"/><img src="https://i.imgur.com/g0POeSg.jpeg" height="20%" width="18.7%"/> <img src="https://i.imgur.com/Q2akhXs.jpeg" height="20%" width="18.7%"/>
+<br />
+<br>
+  
+<h2> Environments Used: </h2> 
 &nbsp;&nbsp;&nbsp;&nbsp;- Bubble.io native mobile (visual development platform) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- bubble native DB <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Responsive, mobile-optimized UI 
-</p>
 
 <br>
-<p>
-API Integrations: <br>
+<br>
+<h2> API Integrations: </h2> 
 &nbsp;&nbsp;&nbsp;&nbsp;1. Flickr API (public) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Used to query geotagged images in real time based on latitude/longitude/radius <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Get request (https, rest-API), JSON output <br>
@@ -52,39 +56,35 @@ API Integrations: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Location names (city,state,country) are dynamically populated via Google Places Autocomplete Service <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Get request (https, rest-API), JSON output <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Dynamic address (lon, lat) url parameters <br>
-</p>
 
 
 <br>
-<p>
-Image Unique URL Generation: <br>
+<h2> Image Unique URL Generation: </h2> 
 &nbsp;&nbsp;&nbsp;&nbsp;- Constructed the sources URL for a photo via image ID, server ID, secret (returned by Flicker API call) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- example pull: https://live.staticflickr.com/{server-id}/{id}_{secret}_{size-suffix}.jpg <br>
-</p>
+
 
 <br>
-<p>
-iOS Deployment: <br>
+
+<h2> iOS Deployment: </h2> 
 &nbsp;&nbsp;&nbsp;&nbsp;- Deployed as a native iOS application via BDK Native (iOS wrapper) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Packed as .ipa binary file for iOS distribution (complied assets) <br>
-</p>
 
-
-<p align="center">
-<br/>
-<img src="https://i.imgur.com/4W72EP4.jpeg" height="20%" width="18.7%"/> <img src="https://i.imgur.com/8Yxq7CA.jpeg" height="20%" width="18.7%"/> <img src="https://i.imgur.com/uhAaTnB.jpeg" height="20%" width="18.7%"/><img src="https://i.imgur.com/g0POeSg.jpeg" height="20%" width="18.7%"/> <img src="https://i.imgur.com/Q2akhXs.jpeg" height="20%" width="18.7%"/>
-<br />
-
+<br>
+<br>
 
 <h2> User/Customer Feedback </h2>
 <p align="center">
-<br/>
 <img src="https://i.imgur.com/voolhU9.png" height="80%" width="80%"/>
-<br />
 
 
-<h2> Iterate + MVP2 Feature List </h2>
+<br> 
+<br>
+
+<h2> MVP 2 Feature List + Iterate Build </h2> 
+MVP 2 build is a combination of features from User Feedback & "Could-Have" MVP 1 items. <br> 
+Build is currently in progress; core features under development / round 2 user iterative testing.
+<p align="center">
 <br/>
-a
-<br />
+<img src="https://i.imgur.com/dS2T8pP.png" height="80%" width="80%"/>
 
