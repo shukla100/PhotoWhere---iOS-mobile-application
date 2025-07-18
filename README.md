@@ -30,7 +30,7 @@ Home View / Results View
 <br />
 
 
-<h2> Build - MVP1</h2>
+<h2> Build - MVP 1</h2>
 <p align="center">
 <br/>
 <img src="https://i.imgur.com/4W72EP4.jpeg" height="20%" width="18.7%"/> <img src="https://i.imgur.com/8Yxq7CA.jpeg" height="20%" width="18.7%"/> <img src="https://i.imgur.com/uhAaTnB.jpeg" height="20%" width="18.7%"/><img src="https://i.imgur.com/g0POeSg.jpeg" height="20%" width="18.7%"/> <img src="https://i.imgur.com/Q2akhXs.jpeg" height="20%" width="18.7%"/>
