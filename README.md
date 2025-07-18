@@ -30,10 +30,45 @@ Home View / Results View
 <br />
 
 <h2> Build - MVP1</h2>
-some text about build 
+
+<p>
+Environments Used: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Bubble.io native mobile (visual development platform) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- bubble native DB <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Responsive, mobile-optimized UI 
+</p>
 
 <br>
-Environments Used: bubble.io 
+<p>
+API Integrations: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;1. Flickr API (public) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Used to query geotagged images in real time based on latitude/longitude/radius <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Get request (https, rest-API), JSON output <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Contextual static parameters (tags, geo metadata, sort order) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Dynamic location (lon, lat) url parameters <br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2,3. Google Places & Geocoding APIs <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Enabled location resolution from user input or device GPS to structured geographic coordinates (lon,lat) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Location names (city,state,country) are dynamically populated via Google Places Autocomplete Service <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Get request (https, rest-API), JSON output <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Dynamic address (lon, lat) url parameters <br>
+</p>
+
+
+<br>
+<p>
+Image Unique URL Generation: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Constructed the sources URL for a photo via image ID, server ID, secret (returned by Flicker API call) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- example pull: https://live.staticflickr.com/{server-id}/{id}_{secret}_{size-suffix}.jpg <br>
+</p>
+
+<br>
+<p>
+iOS Deployment: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Deployed as a native iOS application via BDK Native (iOS wrapper) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Packed as .ipa binary file for iOS distribution (complied assets) <br>
+</p>
+
 
 <p align="center">
 <br/>
